@@ -1,0 +1,48 @@
+# Context API Assignment
+
+## Task Overview:
+
+1. Build a React app using the Context API to manage user login/logout functionality.
+2. Write Cypress test cases to ensure the proper functioning of the app.
+3. Create a boilerplate by copying the source code and intentionally breaking the tests by removing the bits related to the Context API.
+
+## Instructions:
+
+### Part 1: Building the React App
+
+1. Use Create React App (CRA) as the boilerplate for your React application.
+
+2. Create a Context named `UserContext.js` that manages user login/logout functionality.
+
+3. Implement the Context in your app to demonstrate its usage.
+
+4. Create a Home component that interacts with the Context.
+
+5. Run the app (`npm start`) to verify its correctness.
+
+### Part 2: Writing Cypress Test Cases
+
+1. Install Cypress using `npm install cypress --save-dev`.
+
+2. Write Cypress test scripts in `cypress/integration/context-api.spec.js` to validate the user login/logout functionality.
+
+3. Run the Cypress tests using `npx cypress open` to ensure all tests pass.
+
+### Part 3: Creating the Boilerplate
+
+1. Copy the entire source code of the React app to a new folder named "context-api-boilerplate."
+
+2. Remove the bits related to the Context API in the copied code, ensuring that the Cypress tests fail when run against this modified code.
+
+## Submission Guidelines:
+
+1. Zip the folders "context-api-demo" and "context-api-boilerplate" separately.
+
+2. Include a text document explaining the assignment, providing instructions on setting up and running the original app, running Cypress tests, and identifying intentional failures in the boilerplate.
+
+3. Submit the zipped folders and the assignment text via the designated platform.
+
+## Additional Notes:
+
+- **Deadline:** [Specify the deadline for submission.]
+- **Assessment Criteria:** Evaluation will be based on the correctness of the original app, effectiveness of Cypress tests, and the intentional breaking of tests in the boilerplate.
